@@ -16,3 +16,11 @@ Following terraform configuration files needed:
 - vpc.tf
 - eks.tf
 - variables.tf
+
+Execute command to apply:
+```bash
+  terraform init
+  terraform plan
+  terraform taint
+  terraform apply -auto-approve
+```
